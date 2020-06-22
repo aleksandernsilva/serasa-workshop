@@ -2,6 +2,10 @@
     background-color: #FFF;
     height: 75px;
     max-width: 1920px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
@@ -20,7 +24,7 @@
     background-color: #FFF;
     border-radius: 10px;
     padding: 1rem;
-    max-width: 480px;
+    max-width: 500px;
 }
 
 .partner {
@@ -37,6 +41,7 @@
     font-size: 14px;
     line-height: 28px;
     width: 186px;
+    color: rgba(0, 8, 38, 0.6)
 }
 
 .discount__percent {
@@ -78,7 +83,7 @@
     padding: 1rem;
     font-size: 16px;
     line-height: 24px;
-    color: rgba(0, 8, 38, 0.44);
+    color: rgba(0, 8, 38, 0.44);    
 }
 
 .partner-negativate > dd {
@@ -100,6 +105,7 @@
 }
 .icon{
     text-align: right;
+    color: green;
 }
 
 .promotion {
@@ -111,7 +117,7 @@
 
 .promotion__before, .promotion__after {
     background: rgba(0, 8, 38, 0.8);
-    width: 45%;
+    width: 47%;
     background: #f5f7f9;
     border-radius: 4px;
 }
@@ -147,4 +153,10 @@
 .promotion_por_value {
     font-weight: bold;
     color: rgba(0, 8, 38, 0.8)
+}
+
+@media screen and (max-width: 480px) {
+    .nav-menu {
+        display: none;
+    }
 }
