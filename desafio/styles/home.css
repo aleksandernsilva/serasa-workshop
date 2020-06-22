@@ -1,0 +1,150 @@
+.nav-menu {
+    background-color: #FFF;
+    height: 75px;
+    max-width: 1920px;
+}
+
+.content {
+    width: 35%;
+    margin: 0 auto;
+    min-width: 500px;
+}
+
+.content__title {
+    margin: 2rem 2rem;
+    line-height: 28px;
+    color: rgba(0, 8, 38, 0.8);
+}
+
+.offer {
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 480px;
+}
+
+.partner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    height: 60px;
+}
+
+.partner--discount {
+    display: flex;
+    text-align: right;
+    font-size: 14px;
+    line-height: 28px;
+    width: 186px;
+}
+
+.discount__percent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    background-image: url('../images/badge.svg');
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #FFF;
+  }
+
+.tag {
+    display: inline-block;
+    padding: .5rem 1rem;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+    color: #5b6276;
+    background-color: #e6eaee;
+    margin-bottom: 1.2rem;
+}
+
+.tag-debt {
+    font-size: 12px;
+    line-height: 16px;
+    color: #d6103b;
+    background: #f7e9ec;
+}
+
+.partner-negativate {
+    background: rgba(245, 248, 250, 0.5);
+    border-radius: 4px;
+    padding: 1rem;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 8, 38, 0.44);
+}
+
+.partner-negativate > dd {
+    color: rgba(0, 8, 38, 0.6);
+    margin-bottom: 1rem;
+    margin-inline-start: 0;
+    font-weight: bold;
+}
+
+.partner-negativate > dt {
+    color: rgba(0, 8, 38, 0.6);
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    color:rgba(0, 8, 38, 0.8);
+    font-weight: bold;
+}
+.icon{
+    text-align: right;
+}
+
+.promotion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+}
+
+.promotion__before, .promotion__after {
+    background: rgba(0, 8, 38, 0.8);
+    width: 45%;
+    background: #f5f7f9;
+    border-radius: 4px;
+}
+
+.promotion__after {
+    background: #e7f3f9;
+}
+
+.promotion dd { 
+    margin-inline-start: 0;
+}
+
+.promotion__space {
+    padding: 0 2rem;
+}
+
+.promotion_de {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 8, 38, 0.44)
+}
+
+.promotion_de_value {
+    font-weight: bold;
+}
+
+.promotion_por {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 8, 38, 0.6)
+}
+
+.promotion_por_value {
+    font-weight: bold;
+    color: rgba(0, 8, 38, 0.8)
+}
