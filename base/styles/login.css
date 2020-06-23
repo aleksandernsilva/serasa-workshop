@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: row
+}
+
+.hero {
+  display: flex;
+  width: 42%;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #00baf5;
+  background-image: linear-gradient(#009ee3, #00caff);
+}
+
+.hero__logo {
+  margin: auto;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 0 100px;
+  background-color: #f5f8fa;
+}
+
+.login__form {
+  max-width: 400px;
+}
+
+.login__title {
+  margin-bottom: 32px;
+  line-height: 44px;
+  color: rgba(0, 8, 38, 0.8);
+}
