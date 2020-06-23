@@ -47,6 +47,32 @@
   line-height: 24px;
 }
 
+.card {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #e6eae6;
+  border-radius: 1rem;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #5b6276;
+}
+
+.tag--debt {
+  background-color: #f7e9ec;
+  color: #d6103b;
+}
+
+.tag + .tag{
+  margin-left: 0.5rem;
+}
+
 /* LINK */
 
 .link {

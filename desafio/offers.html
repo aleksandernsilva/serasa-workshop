@@ -1,59 +1,66 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="./styles/base.css" />
-        <link rel="stylesheet" href="./styles/components.css" />
+  <link rel="stylesheet" href="./styles/base.css" />
+  <link rel="stylesheet" href="./styles/components.css" />
+  <link rel="stylesheet" href="./styles/offers.css" />
 
-        <title>Limpa nome | Offertas</title>
-    </head>
-    <body>
-        <nav class="nav-header"></nav>
+  <!-- <script src="./scripts/offerList.js" type="module"></script> -->
 
-        <main class="offers-list">
-            <h1 class="offers-list__title">Economize até 6.000,00 pagando suas dividas:</h1>
-            
-        <article class="card offer">
-            <header class="offer__header">
-                <img src="./images/crefisa-logo.svg" alt="Logo crefisa" />
+  <title>Limpa Nome | Ofertas</title>
+</head>
+<body>
+  <nav class="nav-header"></nav>
 
-                <label class="discount-badge">
-                    Desconto de até: <span class="discount-badge__value">60%</span>
-                </label>                
-            </header>
+  <main class="offers-list">
+    <h1 class="offers-list__title">Economize até 6.000,00 pagando suas dívidas:</h1>
 
-            <section class="offer__tags">
-                <span class="tag tag--debt">Divida negativada</span>
-                <span class="tag">Divida em seu CPF</span>
-            </section>
+    <article class="card offer">
+      <header class="offer__header">
+        <img src="./images/crefisa-logo.svg" alt="Logo do parceiro: Crefisa" />
 
-            <section class="offer-details">
-                <d1 class="offers-details__list">
-                    <dt>Valor negativado:</dt>
-                    <dd>R$ 1.000,00</dd>
-                    <dt>Quando venceu:</dt>
-                    <dd><time>01/03/2019</time></dd>
-                    <dt>Número do contrato:</dt>
-                    <dd>123321.3221341.2241241.1</dd>
-                </d1>
-                <button type="button" class="offer-details__more">Menos detalhes</button>
-            </section>
+        <label class="discount-badge">
+          Desconto de até: <span class="discount-badge__value">60%</span>
+        </label>
+      </header>
 
-            <section class="offer-values">
-                <label class="offer-value">
-                    De: <p>R$ 6.600,00</p>
-                </label>
+      <section class="offer__tags">
+        <span class="tag tag--debt">Divida negativada</span>
+        <span class="tag">Divida em seu CPF</span>
+      </section>
 
-                <label class="offer-value offer-value--featured">
-                    Por: <p>R$600,00</p>
-                </label>
-            </section>
+      <section class="offer-details">
+        <dl class="offer-details__list">
+          <dt>Valor negativado:</dt>
+          <dd>R$ 1.000,00</dd>
 
-            <button class="offer__submit button button--primary">Ver oferta</button>
-        </article>
-        
-        </main>
-    </body>
+          <dt>Quando venceu:</label>
+          <dd><time>01/03/2019</time></dd>
+
+          <dt>Número do contrato:</dt>
+          <dd>1232134154.231232131.213123123.23</dd>
+        </dl>
+
+        <button type="button" class="offer-details__more">Menos detalhes</button>
+      </section>
+
+      <section class="offer__values">
+        <label class="offer-value">
+          De: <p>R$ 6.600,00</p>
+        </label>
+
+        <label class="offer-value offer-value--featured">
+          Por: <p>R$ 600,00</p>
+        </label>
+      </section>
+
+      <button class="offer__submit button button--primary">Ver oferta</button>
+    </article>
+
+  </main>
+
+</body>
 </html>
